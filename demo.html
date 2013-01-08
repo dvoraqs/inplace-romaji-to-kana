@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html> <!-- add lang="en"? -->
+    <head>
+        <meta charset="utf-8" />
+        <title>Romaji Conversion Test</title>
+        <script src="romaji.js"></script>
+    </head>
+    <body>
+        <div style="width:450px; margin:200px auto 0 auto">
+            <form>
+                <input type="text" style="width:100%; font-size:25px"
+                onkeyup="convert(this)" autofocus />
+            </form>
+            <br/>
+            <p>
+                Use this like you would the Microsoft IME keyboard for Japanese.
+                They should act similar except for some changes and not having 
+                menu options for kanji spellings. Tips:
+            </p>
+            <ul>
+                <li>Capital Letters differentiate between hiragana and katakana.</li>
+                <li>Prepend an 'x' or 'l' to get the small version of some kana.</li>
+                <li>Use apostrophies to get alternate kana for some spellings.</li>
+            </ul>
+        </div>
+    </body>
+</html>
